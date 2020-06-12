@@ -1,0 +1,86 @@
+@media screen and (max-width: 1024px){
+	.editConversionRates{
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 767px){
+	.sidebar{
+		position: static;
+		height: auto;
+	}
+
+	.top-navbar {
+		position: static;
+	}
+	
+}
+@media screen and (max-width: 425px){    /*nhỏ hơn hoặc bằng 425 là ăn css*/
+	.top-navbar .row .col-md-3 ul{
+  		display: inline-block; 
+		list-style: none;
+		margin-bottom: -20px;
+	}
+	.top-navbar .row .col-md-3 li{
+		float: left;
+		padding: 10px;
+	}
+	.fa-sign-out-alt{
+		margin-left: 200px;
+	}
+}
+@media screen and (max-width: 375px){
+	.fa-sign-out-alt{
+		margin-left: 180px;
+	}
+	.editclock{
+		height: 250px;
+	}
+	.card .card-header button  {
+		font-size: 14px;
+	}
+	.editiphone{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 360px){
+	.fa-sign-out-alt{
+		margin-left: 160px;
+	}
+	.card .card-header button  {
+		font-size: 13px;
+	}
+	.editiphone{
+		font-size: 13px;
+	}
+	.editTasks{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.fa-sign-out-alt{
+		margin-left: 125px;
+	}
+	.fa-8x{
+		font-size: 100px;
+	}
+	.editclock{
+		height: 222px;
+	}
+	.card .card-header button  {
+		font-size: 11px;
+	}
+	.editiphone{
+		font-size: 11px;
+	}
+	.card .card-header button img {
+		width: 40px;
+		
+	}
+	.editicon{
+		margin-left: -12px;
+	}
+	.editTasks{
+		font-size: 13px;
+	}
+}
