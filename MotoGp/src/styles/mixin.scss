@@ -1,0 +1,16 @@
+@mixin left-right-menu-ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: absolute;
+	background-color: $bg-f2f3f3;
+	padding: 0 20px;
+	display: none;
+	width: 170px;
+	top: 0;
+}
+@mixin hover-color {
+	&:hover {
+		color: $red;
+	}
+}

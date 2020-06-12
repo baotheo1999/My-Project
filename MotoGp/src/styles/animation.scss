@@ -1,0 +1,53 @@
+@keyframes menu-an-left {
+	from {
+		right: -50px;
+	}
+	to {
+		right: 0;
+	}
+}
+
+@keyframes animationheading-left {
+	0% {
+		opacity: 0;
+		transform: translate(-70px, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes animationheading-right {
+	0% {
+		opacity: 0;
+		transform: translate(70px, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+@keyframes animationheading-bot {
+	0% {
+		opacity: 0;
+		transform: translate(0, 70px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+@keyframes right-menu {
+	from {
+		top: 15px;
+	}
+	to {
+		top: 0;
+	}
+}
+@keyframes downmenu {
+	from {
+		top: 50px;
+	}
+	to {
+		top: 35px;
+	}
+}

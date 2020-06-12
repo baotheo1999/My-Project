@@ -1,0 +1,105 @@
+@media only screen and (min-width: 920px) {
+	.heading,
+	.post_all_and_newsletter,
+	.bot,
+	.footer {
+		margin: 0 5px;
+	}
+	.menu {
+		padding: 0 5px;
+	}
+	.heading {
+		display: flex;
+		align-items: center;
+	}
+	.post_all_and_newsletter {
+		display: flex;
+		position: relative;
+		.post_all {
+			.post {
+				.post-text {
+					margin-left: 100px;
+				}
+			}
+		}
+
+		.two_button {
+			.two_button2 {
+				position: absolute;
+				right: 0;
+			}
+		}
+		.sticker {
+			.newsletter-desltop {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.menu-container {
+		.menu {
+			.nav {
+				display: flex;
+				align-items: center;
+				.menu-ul-1 {
+					display: block;
+					.menu-li-1 {
+						@include hover-color();
+						position: relative;
+						&:hover .down-menu-ul {
+							display: block;
+							animation: downmenu 0.3s ease-out;
+						}
+						.down-menu-ul {
+							display: flex;
+							flex-direction: column;
+							justify-content: flex-start;
+							position: absolute;
+							left: 0;
+							background-color: $bg-f2f3f3;
+							color: $gray;
+							padding: 0 20px;
+							display: none;
+							width: 170px;
+							li {
+								@include hover-color();
+								position: relative;
+								display: block;
+								padding: 10px 0;
+								&:hover .right-menu-ul {
+									display: block;
+									animation: right-menu 0.3s ease-out;
+								}
+								&:hover .left-menu-ul {
+									display: block;
+									animation: right-menu 0.3s ease-out;
+								}
+
+								.fa-angle-right {
+									position: absolute;
+									right: 0;
+								}
+								.right-menu-ul {
+									left: 170px;
+									@include left-right-menu-ul();
+									color: $gray;
+									li {
+										margin-left: 20px;
+									}
+								}
+								.left-menu-ul {
+									right: 170px;
+									@include left-right-menu-ul();
+									color: $gray;
+									li {
+										margin-right: 20px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

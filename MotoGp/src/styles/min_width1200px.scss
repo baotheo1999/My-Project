@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1200px) {
+	body {
+		background-color: $bg-ffffff;
+	}
+	.heading,
+	.post_all_and_newsletter,
+	.bot,
+	.footer {
+		margin: 0 100px;
+	}
+	.menu {
+		padding: 0 100px;
+	}
+
+	.icon-seting {
+		position: fixed;
+		top: 150px;
+		left: 0;
+		font-size: 40px;
+		color: #555d66;
+		background: #f1f1f1;
+		border-bottom-right-radius: 20%;
+		border-top-right-radius: 20%;
+		display: block;
+		i {
+			padding: 13px;
+		}
+	}
+
+	.menu-container {
+		.menu_an {
+			width: 20%;
+			.menu_an_menu {
+				display: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+@import './variables.scss';
+@import './animation.scss';
+@import './mixin.scss';
+@import './mobile.scss';
+@import './min_width_500_max_width_900px.scss';
+@import './min_width900px.scss';
+@import './min_width1200px.scss';
+@import './min_width1500px.scss';
+html {
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+}
+.padding {
+	padding: 0 $padding-25;
+}
+
+.padding-25 {
+	padding: $padding-25;
+}
+
+.color-red {
+	color: $red;
+}
+.color-h2 {
+	color: $gray;
+}
+
+.color-white {
+	color: $ffffff;
+}
+
+.color-ffffff {
+	color: $ffffff !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.background-color-gray {
+	background-color: $bg-f2f3f3;
+}
+
+.boder-bootom {
+	border-bottom: 1px solid black;
+}
